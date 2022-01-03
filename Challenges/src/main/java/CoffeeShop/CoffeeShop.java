@@ -5,7 +5,10 @@ import java.util.ArrayList;
 public class CoffeeShop {
 
     public static void main(String[] args){
+
+        boolean a = true;
         String name = "CoffeeShop";
+
         ArrayList<MenuItem> menu= new ArrayList<MenuItem>();
         menu.add(new MenuItem("Coffee", "Drink", 1.99));
         menu.add(new MenuItem("Tea", "Drink", 1.99));
@@ -17,6 +20,15 @@ public class CoffeeShop {
         menu.add(new MenuItem("Scone", "Food", 1.99));
         menu.add(new MenuItem("Donut", "Food", 1.99));
         menu.add(new MenuItem("Croissant", "Food", 1.99));
+
+        ArrayList<MenuItem> order = new ArrayList<MenuItem>();
+
+        System.out.println("Welcome to " + name + ".");
+        System.out.println("Main Menu");
+
+        while (a){
+
+        }
     }
 
 

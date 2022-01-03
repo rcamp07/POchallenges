@@ -35,4 +35,11 @@ public class MenuItem {
     public void setPrice(float price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "MenuItem{" +
+                "name='" + name + " , type='" + type + " , price=" + price +
+                '}';
+    }
 }
